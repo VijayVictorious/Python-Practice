@@ -7,17 +7,17 @@
             output = 15(1+2+4+8 = 15) """
 
 
+start = int(input("Enter start value = "))
+end = int(input("Enter end value = "))
 n = int(input("Enter n = "))
+sum = 0
 
-sum = 1
-
-for i in range(1,3+1) :
-    sum = sum+i
-
-print(sum+n)
-    
+for i in range(start,end+1) :
+    sum = sum + i
 
 
+    if n % i == 0 :
+        print(sum)
 
 
 
@@ -25,6 +25,3 @@ print(sum+n)
 
 
 
-
-
-            
