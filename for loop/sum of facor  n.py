@@ -6,18 +6,15 @@
             eg 2. n=8
             output = 15(1+2+4+8 = 15) """
 
-
-start = int(input("Enter start value = "))
-end = int(input("Enter end value = "))
-n = int(input("Enter n = "))
+n = int(input("Enter factor value = "))
 sum = 0
 
-for i in range(start,end+1) :
-    sum = sum + i
-
+for i in range(1,n+1) :
 
     if n % i == 0 :
-        print(sum)
+        sum = sum + i
+
+print("Sum of factor value = ",sum)
 
 
 
